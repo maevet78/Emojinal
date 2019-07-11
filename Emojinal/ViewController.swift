@@ -10,6 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let emojis = ["👩‍💻": "Called the Queen of Software, she helped invent some of the early English-language programming languages.", "🧮": "She developed an algorithm for a computer that didn’t yet exist — an accomplishment that some say qualifies her as the world’s first computer programmer.", "☎️": "She invented a telephony switching computer program that kept phones functioning under stressful loads.", "🗺️": "She is Google’s first female engineer (she’s actually employee number 20). Now vice president of location and local services, Mayer leads product management and engineering for a variety of search products, including Google Maps, Local Search, Google Earth, Street View and Latitude.", "📻": "She played a key role in the invention of spread-spectrum technology; specifically, by conceptualizing the idea of frequency hopping, which is a method of sending radio signals from different frequency channels.", "🎮": "Sierra On-Line was the name of company (later known as Sierra Entertainment) that Williams co-founded with her husband, Ken Williams. Together, they helped shape the history of video games with their complex puzzles and detailed storylines."]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -44,7 +46,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func marissaMayer(_ sender: UIButton) {
-         let alertController = UIAlertController(title: "Marissa Mayer (Search Siren)", message: "Marissa Mayer is Google’s first female engineer (she’s actually employee number 20). Now vice president of location and local services, Mayer leads product management and engineering for a variety of search products, including Google Maps, Local Search, Google Earth, Street View and Latitude.", preferredStyle: UIAlertController.Style.alert)
+         let alertController = UIAlertController(title: "Marissa Mayer (Search Siren)", message: "She is Google’s first female engineer (she’s actually employee number 20). Now vice president of location and local services, Mayer leads product management and engineering for a variety of search products, including Google Maps, Local Search, Google Earth, Street View and Latitude.", preferredStyle: UIAlertController.Style.alert)
         
          alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         
