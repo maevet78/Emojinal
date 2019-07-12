@@ -72,6 +72,13 @@
                                     <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="30D-X3-oRM"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80v-5t-p2E">
+                                <rect key="frame" x="168" y="670" width="78" height="30"/>
+                                <state key="normal" title="Learn More"/>
+                                <connections>
+                                    <segue destination="fYS-1Z-CTK" kind="show" id="5vN-yj-EJl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91777987074587475" green="0.92504998776372038" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
@@ -81,10 +88,13 @@
                             <constraint firstItem="Fti-Db-wAN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="66" id="8NY-A1-oL4"/>
                             <constraint firstItem="Hzh-El-y7o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="9a1-dd-O6h"/>
                             <constraint firstItem="Us6-Vh-TR7" firstAttribute="top" secondItem="NDJ-lm-w4p" secondAttribute="bottom" constant="60" id="CRs-TU-eaR"/>
+                            <constraint firstItem="80v-5t-p2E" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="168" id="EDZ-S4-Ltf"/>
                             <constraint firstItem="O3N-vF-Um5" firstAttribute="top" secondItem="vC0-af-r9M" secondAttribute="bottom" constant="60" id="Ggc-Su-u3v"/>
                             <constraint firstItem="NDJ-lm-w4p" firstAttribute="top" secondItem="qEA-Te-y5w" secondAttribute="bottom" constant="60" id="GmJ-JL-6Ns"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Us6-Vh-TR7" secondAttribute="bottom" constant="80" id="Gwd-37-yIM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="80v-5t-p2E" secondAttribute="trailing" constant="168" id="IAA-xg-pQY"/>
                             <constraint firstItem="qEA-Te-y5w" firstAttribute="leading" secondItem="vC0-af-r9M" secondAttribute="trailing" constant="60" id="IFx-eq-s3K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="80v-5t-p2E" secondAttribute="bottom" constant="36" id="Iqs-BL-VHf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Hzh-El-y7o" secondAttribute="bottom" constant="80" id="Obs-Zg-cw2"/>
                             <constraint firstItem="Fti-Db-wAN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="RfY-wz-DWm"/>
                             <constraint firstItem="O3N-vF-Um5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="UKW-b3-MZG"/>
@@ -98,6 +108,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qEA-Te-y5w" secondAttribute="trailing" constant="80" id="qzi-cP-VYp"/>
                             <constraint firstItem="vC0-af-r9M" firstAttribute="top" secondItem="Fti-Db-wAN" secondAttribute="bottom" constant="71" id="ugj-kH-yS7"/>
                             <constraint firstItem="vC0-af-r9M" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="80" id="vll-3D-O9l"/>
+                            <constraint firstItem="80v-5t-p2E" firstAttribute="top" secondItem="Hzh-El-y7o" secondAttribute="bottom" constant="14" id="wDB-gA-D8O"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -105,6 +116,41 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="114.1304347826087"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="e54-Dm-Rrk">
+            <objects>
+                <viewController id="fYS-1Z-CTK" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mlO-8q-CMJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="56" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzi-l8-lVe">
+                                <rect key="frame" x="29" y="55" width="357" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">Currently, a drastic gender gap exists in the STEM field. Males account for 74 percent of STEM field workers. However, females have been computer scientists from the very beginning. It is time to bring some more awareness to these amazing women who have impacted the STEM fields! In fact, 20% of all tech startups across the world are founded by women and our very own city, Chicago, has the most tech startups by women. Women in STEM fields have come a long way, but still have  a long way to go to break the gender gap in STEM fields. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="0.94726175960000003" blue="0.95365328599999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aB5-FR-I8f">
+                                <rect key="frame" x="164" y="444" width="87" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="F88-MD-WyN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aNQ-e5-MJn"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="htn-XX-Kml" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="926.08695652173924" y="121.46739130434784"/>
         </scene>
     </scenes>
 </document>
