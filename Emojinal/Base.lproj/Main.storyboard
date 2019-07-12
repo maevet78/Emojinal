@@ -30,6 +30,7 @@
                                 <state key="normal" title="👩‍💻 "/>
                                 <connections>
                                     <action selector="graceHopper:" destination="BYZ-38-t0r" eventType="touchUpInside" id="whe-TA-QVb"/>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Csh-Ye-QBe"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NDJ-lm-w4p">
@@ -38,6 +39,7 @@
                                 <state key="normal" title="☎️"/>
                                 <connections>
                                     <action selector="marissaMayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z5P-k5-KEG"/>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d5Y-v0-5wa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEA-Te-y5w">
@@ -46,6 +48,7 @@
                                 <state key="normal" title="🗺️"/>
                                 <connections>
                                     <action selector="ernaHoover:" destination="BYZ-38-t0r" eventType="touchUpInside" id="56h-z7-vOf"/>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nJV-iN-Yb8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3N-vF-Um5">
@@ -54,6 +57,7 @@
                                 <state key="normal" title="🧮"/>
                                 <connections>
                                     <action selector="adaLovelace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="llV-GM-W4d"/>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sVf-Jq-Mk1"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hzh-El-y7o">
@@ -62,6 +66,7 @@
                                 <state key="normal" title="📻"/>
                                 <connections>
                                     <action selector="hedyLamarr:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ln-6c-1Pc"/>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aO2-RE-DPp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AvM-di-3aq">
@@ -70,6 +75,7 @@
                                 <state key="normal" title="🎮"/>
                                 <connections>
                                     <action selector="robertaWilliams:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5QH-ro-ecq"/>
+                                    <action selector="showMessage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sht-8n-VOu"/>
                                 </connections>
                             </button>
                         </subviews>
